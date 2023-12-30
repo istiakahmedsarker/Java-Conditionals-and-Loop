@@ -7,6 +7,7 @@ public class FactorsOfANumber {
         int n = in.nextInt();
         int primaryValue = 1;
         ArrayList<Integer> factors = new ArrayList<>();
+
         while(primaryValue < n){
             if(n % primaryValue == 0){
                 factors.add(primaryValue);
