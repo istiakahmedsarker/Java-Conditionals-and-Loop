@@ -10,7 +10,6 @@ public class FactorsOfANumber {
         while(primaryValue < n){
             if(n % primaryValue == 0){
                 factors.add(primaryValue);
-
             }
             primaryValue++;
         }
